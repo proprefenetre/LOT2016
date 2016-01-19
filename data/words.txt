@@ -1,8 +1,4 @@
-'
-,
-.
 1816
-;
 Austen
 CHAPTER
 Emma
@@ -75,7 +71,6 @@ than
 the
 to
 too
-twenty-one
 two
 unite
 very
