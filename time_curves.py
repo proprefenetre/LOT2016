@@ -28,6 +28,8 @@ dates = [fname2date(fname) for fname in fnames1]
 output = {"distance matrix":dm.tolist(), "data": [{"name":"chain-letters",
 "timelabels": dates}]}
 
+# {"data":    [    {"timelabels":    [..., ..., ...,], "name":"chain-letters"}    ], "distance matrix": [[..., ..., ...,]]    }
+
 with open("data/luck-chain-letters.json", "w") as out:
     json.dump(output, out)
 
